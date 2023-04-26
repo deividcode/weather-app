@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* @layer base {
+  h1{
+    margin-block-end: 0.5em;
+  }
+} */
+
+@layer components {
+  .btn{
+    @apply min-w-[112px] min-h-[38px] px-6 py-4 my-3 font-rubik text-sm font-medium text-center rounded-lg; 
+  }
+  .btn-primary{
+    @apply text-electric-violet-100 bg-electric-violet-600;  
+  }
+  .custom-transition {
+    @apply transition duration-700 ease-in-out;
+  }
+}
+
+@layer base{
+  p{
+    margin-block-end: 0.8em;
+  }
+}
+
+.screen-mobile{
+  left: -100%
+}
+
+#menu-checkbox:checked ~ .screen-mobile{
+  left: 0;
+}
