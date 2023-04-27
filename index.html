@@ -5,8 +5,8 @@
     <link rel="icon" type="image/svg+xml" href="/weather-app/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
-    <script type="module" crossorigin src="/weather-app/assets/index-602057ae.js"></script>
-    <link rel="stylesheet" href="/weather-app/assets/index-f976dade.css">
+    <script type="module" crossorigin src="/weather-app/assets/index-7cd9d1a6.js"></script>
+    <link rel="stylesheet" href="/weather-app/assets/index-fdf42cbd.css">
   </head>
 
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
@@ -25,7 +25,7 @@
 
 
     <!-- ===== HEADER ===== -->
-    <header class="container mx-auto relative grid items-end h-11 md:h-12">
+    <header class="container mx-auto relative grid items-end h-14 md:h-14">
 
       <!-- ===== HEADER-TOP ===== -->
       <div class="flex items-center md:justify-between md:items-baseline">
@@ -38,8 +38,8 @@
         </label>
         
         <!-- === BRAND-ICON === -->
-        <div>
-          <span class="font-bold text-lg"><span class="text-c-turquoise-700">W-</span>eather</span>
+        <div class="">
+          <span class="flex items-center text-xl font-rubik font-bold ">Climat <img class="w-7 lg:w-8 ml-2" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAACkUlEQVR4nGNgGAWjYBRgALnu54qyHU/3yrU/+SLb/nSPfPtzBYahBGRBju94+h+GQZ5gGEpAruPJZ1QPPPnEMJRjQK7j6W6GoQTk258ryHU83afY9eSvfMfTvUMuD4BAyuavgSlbv/1P3fzVj2EogpQt3yaDPJC89dskZPH/VgxS/20Z/oPwH1eevz8DpL59STR89K7Ic935mzcNVv3/z8wwGEDylq8HQB5I2fp1P7L4qlgfS5gHkPEvX7H/52/c+X/uxp1P567fWXHh+i3fM2fOsA6YB1K2fHsF9sCWb69gYom1nfYFpdVv8XkADb85f+P2xKfTG13p74GtoNCHYBA/oaYnJaGm+2dBWe1/EjwAxv/smf9/TjZ796wze9atveuU6e6B+NqujoTa7v8gXFVUuphUDyCr++vM+f9zkumHN9URe85evxt87uY9/TM3bogce/SIE2TvpUsPBe8vnaTxqLck6llHdvvr6vAdH3KcHn2LUP9FtgdADo+v6f6dUNudg5yJyfEAMj5PonpKPPAuvrbHGSQ+6gHbgYmB/0M6CcVTMRMPiAcYKCxGKfXAH2fOf+/z3ZdQ5AEyKzKKPPDPgeX/xwzbK6/aMwxJcjwuD6A3Jb6HKvx8n+926lV9TNezziyvk9euCf///5/xzN27/Bfu3BG7dPOm0sVrt43eFvn2vc933/wxw+bClzj9pz8C5b78duH+e+7GnS+ojr/99dyNO1c+J5s9fFsePOdTfaQGyQ4n5IH/tgySn5PNXr/ozMxgoBK4fv06L9XbTbg8MGRAyqgHBhikjMbAAIOU0RgYYJAyGgMDDFJGY2CAQcpoDAwwSBmNgQEGKaMxMMAgZTQGBhikDPUYGAWjYIQAAETlGqH03nJmAAAAAElFTkSuQmCC" alt="windsock"></span>
         </div>
         
         <!-- === MENU-NAV === -->
@@ -95,14 +95,14 @@
 
     </header>
 
-    <section class="container py-8 md:py-24 grid md:grid-cols-2 md:gap-5">
-      <div class="w-56 md:w-72 md:order-2">
+    <section class="container py-8 md:py-24 grid justify-center md:grid-cols-2 gap-3 md:gap-7">
+      <div class="w-56 md:w-80 xl:w-96 md:order-2">
         <img class="w-full h-full" src="/weather-app/assets/hero-weather-3071e621.svg" width="100%" height="auto" alt="hero-image">
       </div>
 
-      <div class="max-w-[310px] grid">
-        <h1 class="mb-3 text-2xl md:text-4xl font-rubik font-bold text-center md:text-left">The world's weather <br> with W-eather</h1>
-        <p class="font-rubik font-normal text-xs md:text-sm text-center md:text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint tempore perspiciatis architecto. Animi ratione voluptatum!</p>
+      <div class="max-w-[300px] xl:max-w-[340px] grid content-center">
+        <h1 class="mb-3 text-2xl md:text-4xl xl:text-5xl font-rubik font-bold text-center md:text-left">The world's weather <br> with <span class="text-electric-violet-600">Climat</span></h1>
+        <p class="font-rubik font-normal text-xs md:text-sm xl:text-base text-center md:text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint tempore perspiciatis architecto. Animi ratione voluptatum!</p>
         <div class="flex justify-center md:justify-start">
           <a href="" class="btn btn-primary">Let's Start</a>
         </div>
