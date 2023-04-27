@@ -5,13 +5,13 @@
     <link rel="icon" type="image/svg+xml" href="/weather-app/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vite App</title>
-    <script type="module" crossorigin src="/weather-app/assets/index-83255cdb.js"></script>
-    <link rel="stylesheet" href="/weather-app/assets/index-393dbd51.css">
+    <script type="module" crossorigin src="/weather-app/assets/index-602057ae.js"></script>
+    <link rel="stylesheet" href="/weather-app/assets/index-f976dade.css">
   </head>
 
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
 
-  <body>
+  <body class="h-[100vh]" style="background-image: linear-gradient(to bottom, #ebd5ff, #e1c1ff, #d8adfe, #cd99fd, #c384fc);">
     <!-- <div class="box">
       
       <form class="form-country">
@@ -57,7 +57,7 @@
 
         <nav class="screen-mobile-menu grid justify-items-center gap-3 py-2"> 
 
-          <a href="" class=" flex items-center w-11/12 pl-4 py-2 rounded-lg bg-electric-violet-10">
+          <a href="" class=" flex items-center w-11/12 pl-4 py-2 rounded-lg bg-[#E7CCFF]">
 
             <svg fill="#000000" class="menu-mobile-home mr-2 fill-electric-violet-600" width="24px" height="24px" viewBox="-4.5 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
               <g id="SVGRepo_bgCarrier" stroke-width="0"/>              
@@ -95,14 +95,15 @@
 
     </header>
 
-    <section class="container py-8 grid">
-      <div class="h-52">
-        <img class="w-full h-full" src="./images/hero-weather.svg" width="100%" height="auto" alt="hero-image">
+    <section class="container py-8 md:py-24 grid md:grid-cols-2 md:gap-5">
+      <div class="w-56 md:w-72 md:order-2">
+        <img class="w-full h-full" src="/weather-app/assets/hero-weather-3071e621.svg" width="100%" height="auto" alt="hero-image">
       </div>
-      <div>
-        <h1 class="mb-3 text-3xl font-rubik font-bold text-center">The world's weather with <br> W-eather</h1>
-        <p class="font-rubik font-normal text-xs text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint tempore perspiciatis architecto. Animi ratione voluptatum!</p>
-        <div class="flex justify-center">
+
+      <div class="max-w-[310px] grid">
+        <h1 class="mb-3 text-2xl md:text-4xl font-rubik font-bold text-center md:text-left">The world's weather <br> with W-eather</h1>
+        <p class="font-rubik font-normal text-xs md:text-sm text-center md:text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint tempore perspiciatis architecto. Animi ratione voluptatum!</p>
+        <div class="flex justify-center md:justify-start">
           <a href="" class="btn btn-primary">Let's Start</a>
         </div>
       </div>
